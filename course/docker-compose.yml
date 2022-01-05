@@ -1,14 +1,15 @@
 version: '3.1'
+
 services:
   db:
-    image: mysql
-    container_name: mysql-springboot
-    environment:
-      MYSQL_ROOT_PASSWORD: root
+    image: mysql:8
+    command: --default-authentication-plugin=mysql_native_password
     ports:
-      - "3308:3306"
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: devdojo
     volumes:
-      - spring-data-dd:/var/lib/mysql
+      - microservices_devdojo:/var/lib/mysql
 
 volumes:
-  spring-data-dd:
+  microservices_devdojo:

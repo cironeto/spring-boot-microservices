@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CourseController {
 
     @Autowired
-    private CourseService courseService;
+    private dev.cironeto.springbootmicroservices.endpoint.service.CourseService courseService;
 
     @GetMapping
     public ResponseEntity<Page<Course>> listAll(Pageable pageable) {

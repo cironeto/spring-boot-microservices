@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Course/course.iml" filepath="$PROJECT_DIR$/Course/course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course/course.iml" filepath="$PROJECT_DIR$/course/course.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-discovery/service-discovery.iml" filepath="$PROJECT_DIR$/service-discovery/service-discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-microservices.iml" filepath="$PROJECT_DIR$/spring-boot-microservices.iml" />
