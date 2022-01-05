@@ -1,0 +1,4 @@
+dev/cironeto/core/model/AbstractEntity.class
+dev/cironeto/core/repository/CourseRepository.class
+dev/cironeto/core/model/Course$CourseBuilder.class
+dev/cironeto/core/model/Course.class
